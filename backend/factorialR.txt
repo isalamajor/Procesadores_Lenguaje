@@ -1,0 +1,25 @@
+
+(defun factorial ()
+  (if 
+(= n 1)
+      (progn (print 1) )
+      (progn 
+(setq n (
+*
+ n
+ factorial
+)))
+    )
+)
+
+
+(defun main ()
+    (setf resultado factorial)
+    (print 7)
+    (print " ")
+    (print resultado)
+    (print "")
+    (print resultado))
+
+(main)
+

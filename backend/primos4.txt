@@ -1,0 +1,26 @@
+(setq d nil)
+(setq n nil)
+(setq m 0)
+
+(defun esprimo ()
+  (setq primo 1)
+  (setq d 2)
+  (loop while (and (< d n) (= primo 1)) do
+    (setq d (+ d 1))
+    )
+  (primo)
+)
+
+(defun listaprimos ()
+  (loop while (< n m) do
+    (setq n (+ n 1)))
+)
+
+(defun main ()
+  (setq d nil)
+  (setq i nil)
+  (listaprimos)
+)
+
+(main)
+

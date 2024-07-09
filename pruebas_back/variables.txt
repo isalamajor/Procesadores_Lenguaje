@@ -1,0 +1,9 @@
+(setq a 0)
+(setq b 1000)
+
+(defun main()
+    (setq c a)
+    (setq var1 (+ c a))
+    (setf c (* 8 (/ d 9)))
+)
+(main)

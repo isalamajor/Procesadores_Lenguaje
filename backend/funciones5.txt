@@ -1,0 +1,21 @@
+(defun mimax ()
+  (if (>= a b)
+      (progn
+        (print a)
+        (print "")
+      )
+      (progn
+        (print b)
+        (print "")
+      )
+  )
+)
+
+(defun main ()
+  (mimax)
+  (mimax)
+  (mimax)
+)
+
+(main)
+

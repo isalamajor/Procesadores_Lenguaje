@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int a, b, c;
+int suma, resta, multiplicacion, division;
+
+
+main() {
+    a = 5;
+    b = -3;
+    c = 0;
+
+    while (a > 0) {
+        printf("%d\n", a);
+        a = a - 1;
+    }
+
+
+    if (b < 0 && c == 0) {
+        puts("b es negativo y c es cero, ");
+    }
+    if (b > 0 || c == 0) {
+        puts("b es positivo o c es cero ");
+    }
+
+
+    suma = a + b;
+    resta = a - b;
+    multiplicacion = a * b;
+    division = a / b;
+    
+    puts("Suma: ");
+    printf("%d\n", suma);
+    puts("Resta neg: ");
+    printf("%d\n", -resta);
+    puts("Multiplicacion: ");
+    printf("%d\n", multiplicacion);
+    puts("División: ");
+    printf("%d\n", division);
+
+}
+
+//@ (main)
+

@@ -1,0 +1,20 @@
+(defun cuadrado ()
+  (print "cuadrado de n")
+  (print n)
+  (print " ")
+  (print (* n n))
+  (print "")
+
+)
+
+(defun funcioninutil ()
+    (print "Inutil")
+)
+
+(defun main ()
+  (cuadrado)
+  (cuadrado)
+)
+
+(main)
+

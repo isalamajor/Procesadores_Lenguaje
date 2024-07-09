@@ -1,0 +1,9 @@
+(defun main ()
+  (print "El texto no se imprime") 
+    (print (+ 123 1) )
+    (print"el texto se imprime" )
+    (print (+ 124 1) )
+)
+
+(main)
+
